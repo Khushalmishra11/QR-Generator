@@ -9,13 +9,17 @@
   <body>
     <div id="main">
       <h1>Enter to generate QR code</h1>
-      <input
+      <input id="input"
         class="textbox"
         type="text"
         placeholder="  Enter the Text or URL"
       />
       <br />
-      <button class="btn">Generate the QR</button>
+      <button id="btn" class="btn">Generate the QR</button>
+
+      <div id="qr">
+        <img src="" id="qr-img">
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
